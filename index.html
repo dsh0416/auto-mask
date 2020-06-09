@@ -16,7 +16,15 @@
   </style>
 </head>
 <body>
+  <h1> Auto Musk </h1>
+  <p>
+    The Concept is to Put Musks on Faces Automatically to Araise People's Awareness for Fighting COVID-19.
+    The model is from TinyFaceDetector and TinyFaceLandmark 68, which is robust and could be run in browsers in a stable framerate.
+    The model is loaded with face-api.js, which is a wrapper for Tensorflow.js on browsers.
+    We made some linear algebra calculation to make the musk fit with the detected results.
+  </p>
   <video id="video" width="720" height="560" autoplay muted></video>
+  
   <script src="./scripts/script.js"></script>
 </body>
 </html>
